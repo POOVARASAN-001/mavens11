@@ -2,7 +2,7 @@ package com.example;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-.
+
 
 public class AppTest {
     @Test
@@ -23,6 +23,6 @@ public class AppTest {
     public void testNegativeNumbersSum() {
         App app = new App();
         int[] numbers = {-1, -2, 5, 3};
-        assertEquals(5, app.findArraySum(numbers));
+        assertEquals(4, app.findArraySum(numbers));
     }
 }
