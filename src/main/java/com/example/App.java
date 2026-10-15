@@ -1,5 +1,6 @@
 package com.example;
 
+
 public class App {
     public int findArraySum(int[] numbers) {
         if (numbers == null) {
